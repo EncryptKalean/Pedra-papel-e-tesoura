@@ -1,20 +1,29 @@
-<html>
-    <link rel="stylesheet" href="src/style.css">
-    <body>
-        <h1 style="text-align: center;">Pedra, papel ou tesoura!</h1>
-        <hr>
-        <div class="align">
-            <div class="player-options">
-                <div><img id="pedra" src="src/rock.webp" /></div>
-                <div><img id="papel" src="src/paper.webp" /></div>
-                <div><img id="tesoura" src="src/scisor.webp" /></div>
-            </div>
-            <div class="enemy-options">
-                <div><img id="pedra" src="src/rock.webp" /></div>
-                <div><img id="papel" src="src/paper.webp" /></div>
-                <div><img id="tesoura" src="src/scisor.webp" /></div>
-            </div>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style.css" />
+
+    <title>Pedra, papel ou tesoura! - Treino de JS</title>
+  </head>
+  <body>
+    <h1>Pedra, papel ou tesoura!</h1>
+
+    <hr />
+
+    <div id="align">
+      <div id="player-options">
+        <img name="pedra" src="src/rock.webp" />
+        <img name="papel" src="src/paper.webp" />
+        <img name="tesoura" src="src/scisor.webp" />
+      </div>
+
+      <div id="enemy-options">
+        <img class="desativado" name="pedra" src="src/rock.webp" />
+        <img class="desativado" name="papel" src="src/paper.webp" />
+        <img class="desativado" name="tesoura" src="src/scisor.webp" />
+      </div>
     </div>
-    </body>
-    <script src="src/script.js"></script>
+  </body>
+  <script src="src/script.js"></script>
 </html>
